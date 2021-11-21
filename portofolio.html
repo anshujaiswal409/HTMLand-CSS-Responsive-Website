@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is my project-2 website" />
+    <meta name="keywords" content="html,css,javascript,project website for front end" />
+    <meta name="author" content="Anshu Jaiswal" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <!-- fontawesome! -->
+    <script src="https://kit.fontawesome.com/b37c54ba41.js" crossorigin="anonymous"></script>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>projectfrontend | Portfolio</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <header>
+            <!-- topbar -->
+            <div id="topbar" class="uni-padding">
+                <p id="tollfree"><strong>Toll Free : 12345-6789</strong></p>
+                <!-- social-icon -->
+                <div id="social-icon">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- logo bar -->
+            <div id="logo-bar" class="uni-padding">
+                <img src="images/logo image.png" alt="logo" />
+            </div>
+
+            <!-- navbar -->
+            <nav id="navbar" class="uni-padding">
+                <ul>
+                    <!----Mobile btn-->
+                    <li id="mobile-cross"><a href="javascript:void(0)" onclick="closemenu()"><i
+                                class="far fa-times-circle"></i></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="portofolio.html">Portfolio</a></li>
+                    <li><a href="Testimonial.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!---Mobile menu button-->
+            <div id="mobile-bar" onclick="openmenu()">
+                <i class="fas fa-bars"></i>&nbsp;Menu
+            </div>
+        </header>
+        <!---------Portfolio Section Start------>
+        <div id="section-content" class="uni-padding group">
+            <div>
+                <h2 class="red-heading">Portfolio</h2>
+                <P class="main-para">Consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</P>
+            </div>
+            <div class="section1 group">
+                <div class="main-equal">
+                    <h3>Project Title Here</h3>
+                    <p>Web Design</p>
+                    <img src="images/portfolio1.jpg" width="100%" alt="dummy-image">
+                </div>
+                <div class="main-equal">
+                    <h3>Project Title Here</h3>
+                    <p>Branding</p>
+                    <img src="images/portfolio2.jpg" width="100%" alt="dummy-image">
+                </div>
+
+
+                <div class="main-equal">
+                    <h3>Project Title Here</h3>
+                    <p>Graphic Design</p>
+                        <img src="images/portfolio3.jpg" width="100%" alt="dummy-image">    
+                </div>
+            </div>
+            <div class="section2 group">
+                <div class="main-equal">
+                    <h3>Project Title Here</h3>
+                    <p>Branding</p>
+                    <img src="images/portfolio4.jpg" width="100%" alt="dummy-image">
+                </div>
+                <div class="main-equal">
+                    <h3>Project Title Here</h3>
+                    <p>Graphic Design</p>
+                    <img src="images/portfolio5.jpg" width="100%" alt="dummy-image">
+                </div>
+                <div class="main-equal">
+                    <h3>Project Title Here</h3>
+                    <p>Web Design</p>
+                    <img src="images/portfolio6.jpg" width="100%" alt="dummy-image">
+                </div>
+            </div>
+
+        </div>
+        
+
+        <!----------Portfolio Section End----->
+        <!-- footer -->
+        <footer>
+            <div id="imp-link" class="uni-padding group">
+                <div class="footer-equal">
+                    <h3>About us</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nam
+                        rerum provident sunt, aspernatur odio atque deserunt accusantium
+                        accusamus animi excepturi sed quod, necessitatibus hic doloremque
+                        ipsam itaque quia facilis!
+                    </p>
+                </div>
+                <div class="footer-equal" id="footer-menu-container">
+                    <h3>Important Links</h3>
+                    <ul id="footer-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-equal">
+                    <h3>Contact Us</h3>
+                    <p>
+                        your name, sec-93,<br />
+                        landcross higg, cantt,<br />
+                        New Delhi-908004;
+                    </p>
+                </div>
+            </div>
+            <div id="copyright" class="uni-padding">
+                <p>copyright &copy; your company name 2020-2021</p>
+            </div>
+        </footer>
+    </div>
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
